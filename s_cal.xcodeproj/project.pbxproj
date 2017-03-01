@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		61535E191E666E43006DBE28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61535E181E666E43006DBE28 /* AppDelegate.swift */; };
-		61535E1B1E666E43006DBE28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61535E1A1E666E43006DBE28 /* ViewController.swift */; };
 		61535E1E1E666E43006DBE28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61535E1C1E666E43006DBE28 /* Main.storyboard */; };
 		61535E201E666E43006DBE28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61535E1F1E666E43006DBE28 /* Assets.xcassets */; };
 		61535E231E666E43006DBE28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61535E211E666E43006DBE28 /* LaunchScreen.storyboard */; };
+		61535E2B1E66889D006DBE28 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61535E2A1E66889D006DBE28 /* CalendarCell.swift */; };
+		61535E2E1E6688F3006DBE28 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 61535E2C1E6688F3006DBE28 /* star.png */; };
+		61535E2F1E6688F3006DBE28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61535E2D1E6688F3006DBE28 /* ViewController.swift */; };
+		61535E331E6688FB006DBE28 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61535E311E6688FB006DBE28 /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61535E151E666E43006DBE28 /* s_cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = s_cal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61535E181E666E43006DBE28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61535E1A1E666E43006DBE28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61535E1D1E666E43006DBE28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61535E1F1E666E43006DBE28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61535E221E666E43006DBE28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61535E241E666E43006DBE28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61535E2A1E66889D006DBE28 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		61535E2C1E6688F3006DBE28 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		61535E2D1E6688F3006DBE28 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61535E311E6688FB006DBE28 /* DateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		61535E171E666E43006DBE28 /* s_cal */ = {
 			isa = PBXGroup;
 			children = (
+				61535E2C1E6688F3006DBE28 /* star.png */,
+				61535E2D1E6688F3006DBE28 /* ViewController.swift */,
 				61535E181E666E43006DBE28 /* AppDelegate.swift */,
-				61535E1A1E666E43006DBE28 /* ViewController.swift */,
+				61535E2A1E66889D006DBE28 /* CalendarCell.swift */,
+				61535E311E6688FB006DBE28 /* DateManager.swift */,
 				61535E1C1E666E43006DBE28 /* Main.storyboard */,
 				61535E1F1E666E43006DBE28 /* Assets.xcassets */,
 				61535E211E666E43006DBE28 /* LaunchScreen.storyboard */,
@@ -125,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61535E231E666E43006DBE28 /* LaunchScreen.storyboard in Resources */,
+				61535E2E1E6688F3006DBE28 /* star.png in Resources */,
 				61535E201E666E43006DBE28 /* Assets.xcassets in Resources */,
 				61535E1E1E666E43006DBE28 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61535E1B1E666E43006DBE28 /* ViewController.swift in Sources */,
+				61535E331E6688FB006DBE28 /* DateManager.swift in Sources */,
+				61535E2F1E6688F3006DBE28 /* ViewController.swift in Sources */,
+				61535E2B1E66889D006DBE28 /* CalendarCell.swift in Sources */,
 				61535E191E666E43006DBE28 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nokonoko.s-cal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -277,7 +289,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nokonoko.s-cal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
